@@ -1,0 +1,8 @@
+---
+# tasks file for Firstrole
+- name: Sample task
+  command: date.
+  register: date
+- debug:
+   msg: "This is for 'date' command"
+   
